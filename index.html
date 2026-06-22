@@ -92,7 +92,7 @@ body {
 		</style>
 		<link id="-gd-engine-icon" rel="icon" type="image/png" href="index.icon.png" />
 <link rel="apple-touch-icon" href="index.apple-touch-icon.png"/>
-
+<script>(function(){function r(f){if(document.readyState!=='loading')f();else document.addEventListener('DOMContentLoaded',f);}r(function(){var s=document.createElement('style');s.textContent='#orient-lock{display:none}@media (orientation:portrait) and (pointer:coarse){#orient-lock{display:flex;position:fixed;inset:0;z-index:9999;flex-direction:column;align-items:center;justify-content:center;gap:1.1rem;text-align:center;padding:2rem;background:#0d0710;color:#f4e9d8;font-family:Arial,sans-serif}}#orient-lock .rot{font-size:4.2rem;animation:orient-rot 1.8s ease-in-out infinite}#orient-lock .ttl{font-size:1.25rem;font-weight:800;letter-spacing:.08em}#orient-lock .sub{font-size:.95rem;opacity:.65}@keyframes orient-rot{0%,45%{transform:rotate(0)}65%,100%{transform:rotate(-90deg)}}';document.head.appendChild(s);var o=document.createElement('div');o.id='orient-lock';var a=document.createElement('div');a.className='rot';a.textContent='📱';var b=document.createElement('div');b.className='ttl';b.textContent='TOURNE TON TÉLÉPHONE';var c=document.createElement('div');c.className='sub';c.textContent='Moostik Combat se joue en mode paysage';o.appendChild(a);o.appendChild(b);o.appendChild(c);function ad(){document.body.appendChild(o);}if(document.body)ad();else document.addEventListener('DOMContentLoaded',ad);o.addEventListener('click',function(){var e=document.documentElement,q=e.requestFullscreen||e.webkitRequestFullscreen;function l(){if(screen.orientation&&screen.orientation.lock){screen.orientation.lock('landscape').catch(function(){});}}try{if(q){var p=q.call(e);if(p&&p.then)p.then(l).catch(l);else l();}else l();}catch(x){}});});})();</script>
 	</head>
 	<body>
 		<canvas id="canvas">
@@ -111,7 +111,7 @@ body {
 
 		<script src="index.js"></script>
 		<script>
-const GODOT_CONFIG = {"args":[],"canvasResizePolicy":2,"emscriptenPoolSize":8,"ensureCrossOriginIsolationHeaders":false,"executable":"index","experimentalVK":false,"fileSizes":{"index.pck":99940096,"index.wasm":37700666},"focusCanvas":true,"gdextensionLibs":[],"godotPoolSize":4};
+const GODOT_CONFIG = {"args":[],"canvasResizePolicy":2,"emscriptenPoolSize":8,"ensureCrossOriginIsolationHeaders":false,"executable":"index","experimentalVK":false,"fileSizes":{"index.pck":101177960,"index.wasm":37700666},"focusCanvas":true,"gdextensionLibs":[],"godotPoolSize":4};
 const GODOT_THREADS_ENABLED = false;
 const engine = new Engine(GODOT_CONFIG);
 
