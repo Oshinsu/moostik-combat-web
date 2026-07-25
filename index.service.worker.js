@@ -4,7 +4,7 @@
 // Incrementing CACHE_VERSION will kick off the install event and force
 // previously cached resources to be updated from the network.
 /** @type {string} */
-const CACHE_VERSION = '1782400056|10061250';
+const CACHE_VERSION = '20260724-super-v2|47372620';
 /** @type {string} */
 const CACHE_PREFIX = 'Moostik Combat-sw-cache-';
 const CACHE_NAME = CACHE_PREFIX + CACHE_VERSION;
@@ -163,4 +163,3 @@ self.addEventListener('message', (event) => {
 		}
 	});
 });
-
